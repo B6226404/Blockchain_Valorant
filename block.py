@@ -60,14 +60,33 @@ def write_block(map, team_win, team_lost, win_score, lost_score, mvp):
 def view_block(block_view):
     with open(blockchain_dir + block_view, 'r') as f:
         block = json.load(f)
-        content = []
-        content.append("Map: " + block.get('map'))
-        content.append("Team Win: " + block.get('team_win'))
-        content.append("Team Lost: " + block.get('team_lost'))
-        content.append("Team Win Score: " + block.get('win_score'))
-        content.append("Team Lost Score: " + block.get('lost_score'))
-        content.append("Match MVP: " + block.get('mvp'))
-        print(*content, sep = "\n")
+        data = []
+        data.append("Map: " + block.get('map'))
+        data.append("Team Win: " + block.get('team_win'))
+        data.append("Team Lost: " + block.get('team_lost'))
+        data.append("Team Win Score: " + block.get('win_score'))
+        data.append("Team Lost Score: " + block.get('lost_score'))
+        data.append("Match MVP: " + block.get('mvp'))
+        print(*data, sep = "\n")
+    return data
+
+def view_block():
+    files = sorted(os.listdir(blockchain_dir), key=lambda x: int(x))
+    data = []
+    for file in files[1:]:
+        with open(blockchain_dir + file) as f:
+            block = json.load(f)
+        
+        block_index = block.get('block_index')
+        map = block.get('map')
+        team_win = block.get('team_win')
+        team_lost = block.get('team_lost')
+        win_score =  block.get('win_score')
+        lost_score =  block.get('lost_score')
+        mvp =  block.get('mvp')
+
+        data.append({'block' : block_index, 'map' : map, 'team_win' : team_win, 'team_lost' : team_lost, 'win_score' : win_score, 'lost_score' : lost_score, 'mvp' : mvp})
+    return data
 
 def main():
     print("Wellcome to Valorant Database")
