@@ -1,0 +1,13 @@
+{
+    "block_index": "1",
+    "map": "Icebox",
+    "team_win": "ACE",
+    "team_lost": "KS",
+    "win_score": "13",
+    "lost_score": "9",
+    "mvp": "cNed",
+    "prev_block": {
+        "hash": "82462444e77e298d3ebf5d7e3b0673aa83154f29a13a4af161d62c7a08697a88",
+        "filename": "0"
+    }
+}

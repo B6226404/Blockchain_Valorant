@@ -1,0 +1,13 @@
+{
+    "block_index": "7",
+    "map": "Ascent",
+    "team_win": "SEN",
+    "team_lost": "FUR",
+    "win_score": "13",
+    "lost_score": "9",
+    "mvp": "TenZ",
+    "prev_block": {
+        "hash": "9b194ddc1bda2336f84e7257feecb0f4237242a6d4677c25e2bf070834739085",
+        "filename": "6"
+    }
+}

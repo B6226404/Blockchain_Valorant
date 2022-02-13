@@ -1,0 +1,13 @@
+{
+    "block_index": "8",
+    "map": "Breeze",
+    "team_win": "TL",
+    "team_lost": "SEN",
+    "win_score": "14",
+    "lost_score": "12",
+    "mvp": "Nivera",
+    "prev_block": {
+        "hash": "9268495e0a4e65bc04f9481ad76c2272ac720e634e5d3b5826ea847793cc1b90",
+        "filename": "7"
+    }
+}

@@ -1,0 +1,13 @@
+{
+    "block_index": "0",
+    "map": "",
+    "team_win": "",
+    "team_lost": "",
+    "win_score": "",
+    "lost_score": "",
+    "mvp": "",
+    "prev_block": {
+        "hash": "",
+        "filename": ""
+    }
+}

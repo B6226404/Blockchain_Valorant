@@ -1,0 +1,13 @@
+{
+    "block_index": "6",
+    "map": "Haven",
+    "team_win": "TL",
+    "team_lost": "KRU",
+    "win_score": "13",
+    "lost_score": "5",
+    "mvp": "ScreaM",
+    "prev_block": {
+        "hash": "fb26994507e712bf6de61b509c75ffa3d9b7492c5b4c7ec99cadd9c69c1fb816",
+        "filename": "5"
+    }
+}

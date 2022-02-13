@@ -1,0 +1,13 @@
+{
+    "block_index": "10",
+    "map": "Split",
+    "team_win": "KRU",
+    "team_lost": "SEN",
+    "win_score": "13",
+    "lost_score": "11",
+    "mvp": "Klaus",
+    "prev_block": {
+        "hash": "e0894e09fd1a122d347b8453d0fd896e44415c612ffd8d65b309eebe91f0490c",
+        "filename": "9"
+    }
+}
