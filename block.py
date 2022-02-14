@@ -57,7 +57,7 @@ def write_block(map, team_win, team_lost, win_score, lost_score, mvp):
         json.dump(data, f, indent=4, ensure_ascii=False)
         f.write('\n')
 
-def view_block(block_view):
+def view_blocks(block_view):
     with open(blockchain_dir + block_view, 'r') as f:
         block = json.load(f)
         data = []
@@ -112,7 +112,7 @@ def main():
         elif(mode == 2):
             num = input("Enter Number of Block: ")
             print()
-            view_block(num)
+            view_blocks(num)
             print()
         elif(mode == 3):
             print()
